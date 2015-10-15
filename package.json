@@ -1,0 +1,22 @@
+{
+  "name": "ml-toto",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "aws s3 sync . s3://ml-toto.satetsu888.com/ --exclude \"*\" --include \"*.html\" --acl \"public-read\""
+  },
+  "author": "satetsu888",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^0.12.16"
+  },
+  "devDependencies": {
+    "css-loader": "^0.19.0",
+    "style-loader": "^0.12.4",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^4.0.0",
+    "webpack": "^1.12.2"
+  }
+}
