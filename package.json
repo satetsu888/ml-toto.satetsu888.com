@@ -5,13 +5,13 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "aws s3 sync . s3://ml-toto.satetsu888.com/ --exclude \"*\" --include \"index.html\" --include \"dest/*\" --acl \"public-read\""
+    "deploy": "aws s3 sync . s3://ml-toto.satetsu888.com/ --exclude \"*\" --include \"index.html\" --include \"dest/*\""
   },
   "author": "satetsu888",
   "license": "ISC",
   "dependencies": {
     "comma-separated-values": "^3.6.3",
-    "vue": "^0.12.16",
+    "vue": "vuejs/vue",
     "vue-router": "^0.7.1"
   },
   "devDependencies": {
