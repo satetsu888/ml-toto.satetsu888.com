@@ -2,7 +2,8 @@
   <div id="wrapper">
     <!-- header -->
     <div id="header">
-        <h1>機械学習でtoto予想</h1>
+        <h1>MachineLearning toto予想</h1>
+        <p>ビッグデータとテクノロジーでtotoを当てる！</p>
     </div>
     <!-- main view -->
     <router-view

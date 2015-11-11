@@ -5,18 +5,19 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "aws s3 sync . s3://ml-toto.satetsu888.com/ --exclude \"*\" --include \"index.html\" --include \"dest/*\""
+    "deploy": "aws s3 sync . s3://ml-toto.satetsu888.com/ --exclude \"*\" --include \"index.html\" --include \"dest/*\" --include \"error.html\" --acl \"public-read\""
   },
   "author": "satetsu888",
   "license": "ISC",
   "dependencies": {
-    "comma-separated-values": "^3.6.3",
     "vue": "vuejs/vue",
+    "vue-resource": "^0.1.16",
     "vue-router": "^0.7.1"
   },
   "devDependencies": {
     "css-loader": "^0.19.0",
     "style-loader": "^0.12.4",
+    "stylus-loader": "^1.4.2",
     "vue-html-loader": "^1.0.0",
     "vue-loader": "^4.0.0",
     "webpack": "^1.12.2"
