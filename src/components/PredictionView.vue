@@ -25,10 +25,12 @@ module.exports = {
         };
     },
     ready: function() {
-        this.$set('round', "802");
-        this.$http.get('./result/0802.json', function (data, status, request) {
-            this.$set('matches', data);
-        })
+        this.$http.get('./result/meta.json', function (data, status, request) {
+            this.$set('round', data.lastround);
+            this.$http.get('./result/'+data.lastround+'.json', function (data, status, request) {
+                this.$set('matches', data);
+            })
+        });
     }
 }
 </script>
