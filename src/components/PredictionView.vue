@@ -8,7 +8,7 @@
             <td>予想</td>
         </tr>
         <tr class="body" v-for="(index, match) in matches">
-            <td>{{index}}</td>
+            <td>{{index++}}</td>
             <td>{{match.cards}}</td>
             <td>{{match.prediction}}</td>
         </tr>
