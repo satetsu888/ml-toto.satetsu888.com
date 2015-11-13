@@ -1,6 +1,17 @@
 <template>
 <h2 v-if="$loadingRouteData">Loading ...</h2>
 <h2 v-if="!$loadingRouteData">第{{round}}回toto予想</h2>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ml-toto -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:320px;height:100px"
+     data-ad-client="ca-pub-5556257550558549"
+     data-ad-slot="1012272705"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <table>
     <tbody>
         <tr class="caption">
@@ -15,6 +26,17 @@
         </tr>
     </tbody>
 </table>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ml-toto -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:320px;height:100px"
+     data-ad-client="ca-pub-5556257550558549"
+     data-ad-slot="1012272705"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <a v-link="{path: '/'}">TOPへ</a>
 </template>
 
