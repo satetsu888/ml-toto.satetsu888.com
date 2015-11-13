@@ -2,15 +2,22 @@
   <div id="wrapper">
     <!-- header -->
     <div id="header">
-        <h1>MachineLearning toto予想</h1>
-        <p>ビッグデータとテクノロジーでtotoを当てる！</p>
+        <span class=title>MachineLearning toto予想</span>
+        <h1>ビッグデータを分析して機械学習でtotoを予想</h1>
     </div>
     <!-- main view -->
     <router-view
       class="view"
-      keep-alive
-      transition
-      transition-mode="out-in">
+    >
     </router-view>
   </div>
 </template>
+
+<style>
+.title {
+    font-size: large;
+}
+h1 {
+    font-size: small;
+}
+</style>
