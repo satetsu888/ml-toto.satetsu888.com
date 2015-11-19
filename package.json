@@ -12,7 +12,7 @@
   "dependencies": {
     "vue": "vuejs/vue",
     "vue-resource": "^0.1.16",
-    "vue-router": "^0.7.1"
+    "vue-router": "^0.7.6"
   },
   "devDependencies": {
     "css-loader": "^0.19.0",

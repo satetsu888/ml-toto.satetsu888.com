@@ -45,7 +45,7 @@ module.exports = {
     data: function(){
         return {
             round: "",
-            matches:[] 
+            matches:[]
         };
     },
     ready: function() {

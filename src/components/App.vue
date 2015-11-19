@@ -14,7 +14,7 @@
 </template>
 
 <script>
-modle.exports = {
+module.exports = {
 
 }
 </script>
