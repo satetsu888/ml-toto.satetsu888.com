@@ -13,7 +13,17 @@
   </div>
 </template>
 
+<script>
+modle.exports = {
+
+}
+</script>
+
+
 <style>
+body {
+    margin: 0px;
+}
 .title {
     font-size: large;
 }
